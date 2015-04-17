@@ -11,21 +11,13 @@ Chef 0.10.10+ for platform_family use.
 
 ## Platform Tested
 
-- Ubuntu 12.04 LTS 32-bit (hashicorp/precise32)
+- Ubuntu 12.04 LTS (hashicorp/precise32)
+- Debian 6.0.10 "squeeze" (chef/debian-6.0.10)
 
 ## Contains
 
-- [PHPUnit](https://phpunit.de/)
-- [PHPLOC](https://github.com/sebastianbergmann/phploc)
-- [PHP Depend](http://pdepend.org/)
-- [PHPMD](http://phpmd.org/)
-- [PHPDox](http://phpdox.de/)
-- [PHPCPD](https://github.com/sebastianbergmann/phpcpd)
-- [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
-
-## Dependencies
-
-- [opscode-cookbooks/apt](https://github.com/opscode-cookbooks/apt)
+- [PHP5](http://php.net/) (php5-common, php5-dev, php5-cli, php-pear, php5-curl, php5-gd, php5-xdebug)
+- [Composer](https://getcomposer.org/)
 
 ## More information
 Check the [Chef Solo documentation](https://docs.chef.io/chef_solo.html)
